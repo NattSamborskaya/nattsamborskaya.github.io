@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: "Andada", serif;
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.wrapper {
+	width: 800px;
+	border: 1px solid white;
+	float:left;
+	background: url("img/background.jpg") no-repeat;
+}
+
+.wrapper:hover {
+	border: 1px solid darkslateblue;
+	border-radius: 5px;
+}
+
+header {
+	height: 70px;
+}
+
+
+.foto {
+	float: left;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+p {
+	font-size: 18px;
+	line-height:2;
+}
+
+h1 {
+	color: #6022e2;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 20px 20px 30px;
+}
+
+h2 {
+	color: #6022e2;
+	font-size: 22px;
+}
+
+
+.location::before {
+	content: url("icons/location.png");
+	margin-right: 5px;
+}
+
+.phone::before {
+	content: url("icons/phone.png");
+	margin-right: 5px;
+}
+
+.e-mail::before {
+	content: url("icons/mail.png");
+	margin-right: 5px;
+}
+
+.skype::before {
+	content: url("icons/skype.png");
+	margin-right: 5px;
+}
+
+.linkedin::before {
+	content: url("icons/linkedin.png");
+	margin-right: 5px;
+}
+
+.git-hub::before {
+	content: url("icons/github.png");
+	margin-right: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: darkblue;
+}
+
+
+.main-info {
+	margin: 25px;
+	clear: both;
+}
+
+.left-column{
+	float: left;
+	margin: 20px 20px 20px 10px;
+	color: #6022e2;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 2;
+	text-transform: uppercase;
+	display: table-cell;
+	width: 220px;
+}
+
+.right-column{
+	margin: 20px;
+	font-size: 17px;
+	float: left;
+	line-height: 2;
+	list-style-type: none;
+	display: table-cell;
+	width: 450px;
+}
+
+.objective,
+.skills,
+.education,
+.additional-education {
+	display: table;
+}
+
